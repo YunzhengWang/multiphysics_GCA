@@ -4,3 +4,6 @@ This code is used to calculate the laser-induced crystallization on phase change
 It combines laser heating, GCA, effective medium theory and Fresnel equations
 Sample structure: 50nm SiN + 30nm GST
 This code is programmed by MATLAB, please use MATLAB to run it.
+
+
+Movie2: a movie file to show the entire crystallization process of a Ge2Sb2Te5 sample irradiated by a 300 ns and 5 mW laser pulse.
