@@ -8,5 +8,7 @@ This code is programmed by MATLAB, please use MATLAB to run it.
 
 Movie2: a movie file to show the entire crystallization process of a Ge2Sb2Te5 sample irradiated by a 300 ns and 5 mW laser pulse.
 
+More information about the multiphysics GCA model can be found in https://arxiv.org/abs/2107.02035
+
 If you have any questions or want to collabrate with us, please contact us by emails:
 robert_simpson@sutd.edu.sg and yunzheng_wang@sutd.edu.sg
