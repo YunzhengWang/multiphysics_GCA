@@ -6,6 +6,8 @@ function multiphysics_GCA
 % Welcome to citing this paper if it is useful for you.
 
 %% %%%%% Initiallization %%%%%
+disp('More information can be found in this paper:https://arxiv.org/abs/2107.02035.');
+disp('Welcome to citing this paper if it is useful for you.');
 %% %%%Thermaldynamics parameters%%%
 %GST
 k_GST_a = 0.2;%thermal conductivity of a-GST, W/(mK)
@@ -236,7 +238,7 @@ while(1)
           
     %update temperature
     T=Temp;
-    
+    fprintf('Time is %5.2f ns\n',t_total_heat*1e9);
    %% GCA 
     %%%%re-sample temperature%%%%
     F_interp.Values = T(:,:,1);
@@ -322,7 +324,8 @@ while(1)
 end
 %% %%%save data to file after finish%%%
 save(sprintf('Pin = %f mW.mat',Pin*1e3),'t_heat','Tmax_heat','t_Xf','Xf_save','Reflectivity','Transmissivity');
-
+disp('More information can be found in this paper:https://arxiv.org/abs/2107.02035.');
+disp('Welcome to citing this paper if it is useful for you.');
 
 %% waveform function
 % t: time; p: intensity ration [0 1]
