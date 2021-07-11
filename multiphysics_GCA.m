@@ -2,6 +2,8 @@ function multiphysics_GCA
 % This code is used to calculate the laser-induced crystallization on phase change materials
 % It combines laser heating, GCA, effective medium theory and Fresnel equations
 % Sample structure: 50nm SiN + 30nm GST
+% More information can be found in this paper:https://arxiv.org/abs/2107.02035
+% Welcome to citing this paper if it is useful for you.
 
 %% %%%%% Initiallization %%%%%
 %% %%%Thermaldynamics parameters%%%
@@ -61,7 +63,7 @@ epsilon_c = N_GST_c^2;%dielectric constant of c-GST
 N_SiN = 2.0193 - 0i;%complex refractive index of SiN
 
 %% %%%initial thermal conditions%%%
-T0 = 298.15;%room temperature = 25¡æ
+T0 = 298.15;%room temperature = 25Â¡Ã¦
 T = T0*ones(length(x),length(y),length(z));%temperature array
 Temp = T;
 
