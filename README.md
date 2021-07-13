@@ -10,5 +10,7 @@ Movie2: a movie file to show the entire crystallization process of a Ge2Sb2Te5 s
 
 More information about the multiphysics GCA model can be found in https://arxiv.org/abs/2107.02035
 
+If you use this code to publish your paper, please cite our work in https://arxiv.org/abs/2107.02035.
+
 If you have any questions or want to collabrate with us, please contact us by emails:
 robert_simpson@sutd.edu.sg and yunzheng_wang@sutd.edu.sg
