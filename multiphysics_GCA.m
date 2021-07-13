@@ -7,7 +7,7 @@ function multiphysics_GCA
 
 %% %%%%% Initiallization %%%%%
 disp('More information can be found in this paper:https://arxiv.org/abs/2107.02035.');
-disp('Welcome to citing this paper if it is useful for you.');
+disp('Please cite this paper if you fully or partially use it in your paper.');
 %% %%%Thermaldynamics parameters%%%
 %GST
 k_GST_a = 0.2;%thermal conductivity of a-GST, W/(mK)
@@ -325,7 +325,7 @@ end
 %% %%%save data to file after finish%%%
 save(sprintf('Pin = %f mW.mat',Pin*1e3),'t_heat','Tmax_heat','t_Xf','Xf_save','Reflectivity','Transmissivity');
 disp('More information can be found in this paper:https://arxiv.org/abs/2107.02035.');
-disp('Welcome to citing this paper if it is useful for you.');
+disp('Please cite this paper if you fully or partially use it in your paper.');
 
 %% waveform function
 % t: time; p: intensity ration [0 1]
